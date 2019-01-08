@@ -1,0 +1,6 @@
+FROM java:8
+WORKDIR \
+ADD C:\GitWorks\FantasyWebApp\src\main\java\com\demo\web C:\GitWorks\FantasyWebApp\src\main\java\com\demo\web
+EXPOSE 8080
+
+CMD java C:\GitWorks\FantasyWebApp\src\main\java\com\demo\web
